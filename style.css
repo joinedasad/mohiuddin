@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  
+    --text-color:#3d3333;
+    --main-color:#916119e5;
+    --logo-height:100px;
+    --logo-width:100px;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  .logo{
+    display: flex;
+    color: var(--text-color);
+}
+
+.logo a img{
+    height:var(--logo-height);
+    width: var(--logo-width);
+}
+.logo-content{
+    margin-top: 2rem;
+}
+.logo-content h1 {
+    font-weight: 800;
+}
+.logo-content h1 span{
+    color: var(--main-color);
+}
+.logo-content h1 b{
+    color: var(--text-color);
+    font-weight: 800;
+}
+.menu-tab{
+    display: flex;
+
+}
+.menu-tab a{
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    font-size: larger;
+    font-weight: 800;
+}
+.menu-bag i{
+    color: var(--main-color);
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+/* heru */
+.heru-top{
+    height: 50vh;
+    width: 100vw;
+}
+
+.heru{
+   
+}
+
+.heru img{
+   width: 100%;
+    height: 50vh;
+  position: relative;
+
+}
+ 
+.heru img::after{
+    content:"" ;
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: block;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+/* .heru-content{
+  background: #000;
+    
+} */
+
+
+/* best selling */
+.best{}
+.best h2{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--text-color);
+    margin: 4rem 0rem;
+}
+/* card */
+.product{}
+.card{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.card-items{
+    margin-right: 1em;
+}
+.card-items img{
+    max-height: 100%;
+    width: 20vw;
+}
+.card-items button{
+    
+    display: block;
+    outline: none;
+    border: none;
+    background-color: var(--main-color);
+    padding: .5rem 2rem;
+    margin: .5rem 0rem;
+    border-radius: 1em;
+    font-size: large;
+    font-weight:800;
+    color: var(--text-color);
+}
+.card-items p{
+    color: var(--text-color);
+}
+.card-items h3{
+    color: var(--main-color);
+}
+/* footer */
+.footer{
+    width: 90vw;
+    margin: 0 auto;
+    margin: 5em 0em 0em 0em;
+}
+.footer article b{
+    display: block;
+    color: var(--text-color);
+}
+.footer-end{
+    display:flex ;
+    justify-content: space-between;
+    margin: 1.5em 0em;
+}
+.footer-e-L{}
+.footer-e-L span{
+    color: var(--main-color);
+}
+.footer-e-R{
+    color: blue;
+    font-size: 13px;
+}
+.footer-e-R span{
+    background-color: blue;
+    color: white;
+}
+.footer-e-R a{
+    text-decoration: none;
+    color: blue;
+}
